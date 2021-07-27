@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		687FDEE92696AE25006B7367 /* LSCCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 687FDEE82696AE25006B7367 /* LSCCollectionViewCell.m */; };
 		689C5DF626929FA800C4C173 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 689C5DF526929FA800C4C173 /* AppDelegate.m */; };
 		689C5DF926929FA800C4C173 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 689C5DF826929FA800C4C173 /* SceneDelegate.m */; };
 		689C5DFC26929FA800C4C173 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 689C5DFB26929FA800C4C173 /* ViewController.m */; };
@@ -14,9 +15,14 @@
 		689C5E0126929FAA00C4C173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689C5E0026929FAA00C4C173 /* Assets.xcassets */; };
 		689C5E0426929FAA00C4C173 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689C5E0226929FAA00C4C173 /* LaunchScreen.storyboard */; };
 		689C5E0726929FAA00C4C173 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 689C5E0626929FAA00C4C173 /* main.m */; };
+		689C5E102692ADED00C4C173 /* HLLWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 689C5E0F2692ADED00C4C173 /* HLLWaterFlowLayout.m */; };
+		689C5E152692B4A000C4C173 /* HLLWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 689C5E142692B4A000C4C173 /* HLLWaterfallLayout.m */; };
+		68C53BCD269DC805006CD493 /* FallsFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C53BCC269DC805006CD493 /* FallsFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		687FDEE72696AE25006B7367 /* LSCCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSCCollectionViewCell.h; sourceTree = "<group>"; };
+		687FDEE82696AE25006B7367 /* LSCCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSCCollectionViewCell.m; sourceTree = "<group>"; };
 		689C5DF126929FA800C4C173 /* waterFlowLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = waterFlowLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		689C5DF426929FA800C4C173 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		689C5DF526929FA800C4C173 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +35,12 @@
 		689C5E0326929FAA00C4C173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		689C5E0526929FAA00C4C173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		689C5E0626929FAA00C4C173 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		689C5E0E2692ADED00C4C173 /* HLLWaterFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLLWaterFlowLayout.h; sourceTree = "<group>"; };
+		689C5E0F2692ADED00C4C173 /* HLLWaterFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLLWaterFlowLayout.m; sourceTree = "<group>"; };
+		689C5E132692B4A000C4C173 /* HLLWaterfallLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLLWaterfallLayout.h; sourceTree = "<group>"; };
+		689C5E142692B4A000C4C173 /* HLLWaterfallLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLLWaterfallLayout.m; sourceTree = "<group>"; };
+		68C53BCB269DC805006CD493 /* FallsFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FallsFlowLayout.h; sourceTree = "<group>"; };
+		68C53BCC269DC805006CD493 /* FallsFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FallsFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +79,14 @@
 				689C5DF826929FA800C4C173 /* SceneDelegate.m */,
 				689C5DFA26929FA800C4C173 /* ViewController.h */,
 				689C5DFB26929FA800C4C173 /* ViewController.m */,
+				689C5E132692B4A000C4C173 /* HLLWaterfallLayout.h */,
+				689C5E142692B4A000C4C173 /* HLLWaterfallLayout.m */,
+				68C53BCB269DC805006CD493 /* FallsFlowLayout.h */,
+				68C53BCC269DC805006CD493 /* FallsFlowLayout.m */,
+				687FDEE72696AE25006B7367 /* LSCCollectionViewCell.h */,
+				687FDEE82696AE25006B7367 /* LSCCollectionViewCell.m */,
+				689C5E0E2692ADED00C4C173 /* HLLWaterFlowLayout.h */,
+				689C5E0F2692ADED00C4C173 /* HLLWaterFlowLayout.m */,
 				689C5DFD26929FA800C4C173 /* Main.storyboard */,
 				689C5E0026929FAA00C4C173 /* Assets.xcassets */,
 				689C5E0226929FAA00C4C173 /* LaunchScreen.storyboard */,
@@ -147,6 +167,10 @@
 			files = (
 				689C5DFC26929FA800C4C173 /* ViewController.m in Sources */,
 				689C5DF626929FA800C4C173 /* AppDelegate.m in Sources */,
+				689C5E152692B4A000C4C173 /* HLLWaterfallLayout.m in Sources */,
+				687FDEE92696AE25006B7367 /* LSCCollectionViewCell.m in Sources */,
+				68C53BCD269DC805006CD493 /* FallsFlowLayout.m in Sources */,
+				689C5E102692ADED00C4C173 /* HLLWaterFlowLayout.m in Sources */,
 				689C5E0726929FAA00C4C173 /* main.m in Sources */,
 				689C5DF926929FA800C4C173 /* SceneDelegate.m in Sources */,
 			);
@@ -294,6 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66H8Z5M693;
 				INFOPLIST_FILE = waterFlowLayoutDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +337,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66H8Z5M693;
 				INFOPLIST_FILE = waterFlowLayoutDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
